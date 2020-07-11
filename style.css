@@ -1,0 +1,25 @@
+body
+{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 50px;
+  
+    text-align: center;
+    color: white;
+}
+h1{
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+li{
+    color: white;
+    list-style: none;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+     width: 60px;
+    }
+  }
